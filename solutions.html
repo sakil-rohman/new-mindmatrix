@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Our Solutions — AI, Digital Growth, Software, Automation & Consulting | MindMatrix Services Private Limited</title>
+  <meta name="description" content="Explore complete business growth solutions from MindMatrix Services: AI & Intelligent Solutions, Digital Growth, Custom Software, Business Automation, and Technology Consulting." />
+  <meta name="theme-color" content="#061226" />
+  <link rel="icon" type="image/png" href="assets/logo/logo.png" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Inter:wght@400;500;600;700&family=Sora:wght@600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/components.css" />
+  <link rel="stylesheet" href="css/animations.css" />
+  <link rel="stylesheet" href="css/responsive.css" />
+</head>
+<body>
+
+  <!-- CUSTOM CURSOR -->
+  <div class="custom-cursor-dot" id="cursor-dot" aria-hidden="true"></div>
+  <div class="custom-cursor-outline" id="cursor-outline" aria-hidden="true"></div>
+
+  <!-- NAVIGATION BAR -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <a href="index.html" class="brand-logo-link" aria-label="MindMatrix Services Home">
+        <img src="assets/logo/logo.png" alt="MindMatrix Original Logo" class="brand-logo-img" width="44" height="44" />
+        <div class="brand-text-wrap">
+          <span class="brand-title">Mind<span>Matrix</span></span>
+          <span class="brand-sub">Services Pvt. Ltd.</span>
+        </div>
+      </a>
+
+      <nav aria-label="Primary Navigation">
+        <ul class="nav-menu" id="desktop-nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link ">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link ">About</a></li>
+
+          <li class="nav-item has-mega">
+            <a href="solutions.html" class="nav-link active" aria-haspopup="true">
+              Solutions <i data-lucide="chevron-down"></i>
+            </a>
+            <div class="mega-menu" role="menu" aria-label="Solutions Mega Menu">
+              <div class="mega-grid">
+                <a href="solution-ai.html" class="mega-card">
+                  <div class="mega-icon"><i data-lucide="cpu"></i></div>
+                  <div class="mega-info">
+                    <h4>AI &amp; Intelligent Solutions</h4>
+                    <p>Generative AI, AI Agents, Machine Learning &amp; Chatbots</p>
+                  </div>
+                </a>
+                <a href="solution-digital-growth.html" class="mega-card">
+                  <div class="mega-icon"><i data-lucide="trending-up"></i></div>
+                  <div class="mega-info">
+                    <h4>Digital Growth Solutions</h4>
+                    <p>Web &amp; E-Commerce, SEO, Lead Generation &amp; Acquisition</p>
+                  </div>
+                </a>
+                <a href="solution-software.html" class="mega-card">
+                  <div class="mega-icon"><i data-lucide="code-2"></i></div>
+                  <div class="mega-info">
+                    <h4>Software &amp; Tech Development</h4>
+                    <p>Custom Software, Web/Mobile Apps, Enterprise CRM &amp; ERP</p>
+                  </div>
+                </a>
+                <a href="solution-automation.html" class="mega-card">
+                  <div class="mega-icon"><i data-lucide="workflow"></i></div>
+                  <div class="mega-info">
+                    <h4>Business Automation &amp; BI</h4>
+                    <p>Workflow Automation, Inventory, BI &amp; Data Analytics</p>
+                  </div>
+                </a>
+              </div>
+              <div class="mega-footer">
+                <span>Need expert architecture guidance?</span>
+                <a href="solution-consulting.html">
+                  Technology Consulting &amp; Support <i data-lucide="arrow-right"></i>
+                </a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item has-mega">
+            <a href="services.html" class="nav-link " aria-haspopup="true">
+              Services <i data-lucide="chevron-down"></i>
+            </a>
+            <div class="mega-menu" role="menu" aria-label="Services Mega Menu">
+              <div class="mega-grid">
+                <a href="solution-ai.html" class="mega-card">
+                  <div class="mega-icon"><i data-lucide="bot"></i></div>
+                  <div class="mega-info">
+                    <h4>Custom AI Agents &amp; LLMs</h4>
+                    <p>24/7 intelligent customer &amp; operational assistants</p>
+                  </div>
+                </a>
+                <a href="solution-software.html" class="mega-card">
+                  <div class="mega-icon"><i data-lucide="layers"></i></div>
+                  <div class="mega-info">
+                    <h4>Enterprise ERP &amp; CRM Systems</h4>
+                    <p>Unified inventory, billing &amp; customer pipelines</p>
+                  </div>
+                </a>
+                <a href="services.html#framework" class="mega-card">
+                  <div class="mega-icon"><i data-lucide="compass"></i></div>
+                  <div class="mega-info">
+                    <h4>The 6-Step Growth Framework</h4>
+                    <p>Discover, Analyze, Strategize, Implement, Optimize, Scale</p>
+                  </div>
+                </a>
+                <a href="services.html#industries" class="mega-card">
+                  <div class="mega-icon"><i data-lucide="building-2"></i></div>
+                  <div class="mega-info">
+                    <h4>Industry-Tailored Transformation</h4>
+                    <p>Retail, Healthcare, Education, Hospitality &amp; SMEs</p>
+                  </div>
+                </a>
+              </div>
+              <div class="mega-footer">
+                <span>End-to-end delivery from strategy to long-term support.</span>
+                <a href="contact.html">Schedule a Discovery Call <i data-lucide="arrow-right"></i></a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item"><a href="projects.html" class="nav-link ">Projects</a></li>
+          <li class="nav-item"><a href="insights.html" class="nav-link ">Insights</a></li>
+          <li class="nav-item"><a href="careers.html" class="nav-link ">Careers</a></li>
+          <li class="nav-item"><a href="contact.html" class="nav-link ">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <button type="button" class="nav-icon-btn" id="open-search-btn" aria-label="Search Website" title="Search (Ctrl+K)">
+          <i data-lucide="search"></i>
+        </button>
+        <button type="button" class="btn btn-gold btn-gold-sm nav-cta-desktop magnetic-btn" data-open-consultation="General Business Consultation">
+          <span>Get a Business Consultation</span>
+          <i data-lucide="arrow-up-right"></i>
+        </button>
+        <button type="button" class="mobile-toggle-btn" id="mobile-menu-toggle" aria-label="Toggle Menu" aria-expanded="false">
+          <i data-lucide="menu"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <div class="mobile-nav-drawer" id="mobile-nav-drawer" aria-hidden="true">
+    <ul class="mobile-nav-list">
+      <li><a href="index.html" class="mobile-nav-link">Home <i data-lucide="arrow-up-right"></i></a></li>
+      <li><a href="about.html" class="mobile-nav-link">About <i data-lucide="arrow-up-right"></i></a></li>
+      <li><a href="solutions.html" class="mobile-nav-link">Solutions <i data-lucide="arrow-up-right"></i></a></li>
+      <li><a href="services.html" class="mobile-nav-link">Services &amp; Framework <i data-lucide="arrow-up-right"></i></a></li>
+      <li><a href="projects.html" class="mobile-nav-link">Projects <i data-lucide="arrow-up-right"></i></a></li>
+      <li><a href="insights.html" class="mobile-nav-link">Insights <i data-lucide="arrow-up-right"></i></a></li>
+      <li><a href="careers.html" class="mobile-nav-link">Careers <i data-lucide="arrow-up-right"></i></a></li>
+      <li><a href="contact.html" class="mobile-nav-link">Contact <i data-lucide="arrow-up-right"></i></a></li>
+    </ul>
+    <div style="margin-top: 2rem;">
+      <button type="button" class="btn btn-gold" style="width: 100%;" data-open-consultation="Mobile Menu Consultation">
+        <span>Get a Business Consultation</span>
+        <i data-lucide="sparkles"></i>
+      </button>
+    </div>
+  </div>
+
+  <main id="home">
+
+    <section class="page-hero">
+      <div class="hero-bg-grid" aria-hidden="true"></div>
+      <div class="hero-light-beam hero-beam-1" aria-hidden="true"></div>
+      <div class="container page-hero-centered">
+        <nav class="breadcrumb-nav" aria-label="Breadcrumb">
+          <a href="index.html">Home</a>
+          <span class="breadcrumb-sep">/</span>
+          <span>Our Solutions</span>
+        </nav>
+        <div>
+          <div class="hero-eyebrow">
+            <span class="eyebrow-dot"></span>
+            <span class="hero-eyebrow-text">OUR SOLUTIONS ARCHITECTURE</span>
+          </div>
+        </div>
+        <h1 class="page-hero-title">
+          Complete <span class="text-gradient-gold">Business Growth</span> Solutions
+        </h1>
+        <p class="page-hero-desc">
+          From strategy to execution, we deliver Artificial Intelligence, digital acquisition, custom software, and automation solutions that create measurable business impact.
+        </p>
+        <div class="hero-cta-group" style="justify-content:center;margin-bottom:0;">
+          <button type="button" class="btn btn-gold magnetic-btn" data-open-consultation="Solutions Hub Consultation">
+            <span>Get a Custom Solution Roadmap</span>
+            <i data-lucide="arrow-right"></i>
+          </button>
+          <a href="services.html#framework" class="btn btn-outline-glass magnetic-btn">
+            <span>View Our 6-Step Framework</span>
+            <i data-lucide="compass"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- 5 CORE SOLUTION PILLARS WITH LINKS TO DEDICATED PAGES -->
+    <section class="section-light section-padding solutions-section">
+      <div class="container">
+        <div class="solutions-bento-grid">
+          <!-- CARD 1 -->
+          <article class="solution-card span-3 tilt-card" id="sol-ai-solutions" data-scroll-reveal>
+            <div>
+              <div class="solution-visual-box">
+                <span class="solution-card-number">01 / AI CORE</span>
+                <div class="sol-3d-chip">AI</div>
+              </div>
+              <div class="solution-card-body">
+                <h3 class="solution-card-title">AI &amp; Intelligent Solutions</h3>
+                <p class="solution-card-desc">Use the power of AI to automate, assist, and unlock new growth opportunities.</p>
+                <div class="solution-tags">
+                  <span class="solution-tag">Generative AI</span>
+                  <span class="solution-tag">AI Agents</span>
+                  <span class="solution-tag">Machine Learning</span>
+                  <span class="solution-tag">AI Chatbots</span>
+                  <span class="solution-tag">Computer Vision</span>
+                  <span class="solution-tag">Intelligent Assistants</span>
+                </div>
+              </div>
+            </div>
+            <div class="solution-card-footer">
+              <a href="solution-ai.html" class="solution-link">
+                <span>Explore AI Solutions Page</span>
+                <i data-lucide="arrow-right"></i>
+              </a>
+              <span style="font-size:0.78rem;color:var(--color-muted-text);font-weight:600;">Dedicated Page</span>
+            </div>
+          </article>
+
+          <!-- CARD 2 -->
+          <article class="solution-card span-3 tilt-card" id="sol-digital-growth" data-scroll-reveal>
+            <div>
+              <div class="solution-visual-box">
+                <span class="solution-card-number">02 / DIGITAL GROWTH</span>
+                <svg width="220" height="115" viewBox="0 0 220 115" fill="none">
+                  <rect x="10" y="10" width="200" height="95" rx="10" fill="rgba(6,18,38,0.75)" stroke="rgba(0,212,255,0.4)" stroke-width="1.5" />
+                  <rect class="sol-chart-bar" x="32" y="62" width="16" height="28" rx="4" fill="#087BFF" />
+                  <rect class="sol-chart-bar" x="60" y="50" width="16" height="40" rx="4" fill="#00D4FF" />
+                  <rect class="sol-chart-bar" x="88" y="40" width="16" height="50" rx="4" fill="#087BFF" />
+                  <rect class="sol-chart-bar" x="116" y="30" width="16" height="60" rx="4" fill="#00D4FF" />
+                  <rect class="sol-chart-bar" x="144" y="20" width="16" height="70" rx="4" fill="#FFC629" />
+                  <path d="M35 60 L68 46 L96 38 L124 27 L152 17 L185 14" stroke="#FFC629" stroke-width="2.5" stroke-linecap="round" />
+                </svg>
+              </div>
+              <div class="solution-card-body">
+                <h3 class="solution-card-title">Digital Growth Solutions</h3>
+                <p class="solution-card-desc">Build a strong digital presence, attract customers, and grow your business online.</p>
+                <div class="solution-tags">
+                  <span class="solution-tag">Website Development</span>
+                  <span class="solution-tag">E-commerce Development</span>
+                  <span class="solution-tag">SEO</span>
+                  <span class="solution-tag">Lead Generation Systems</span>
+                  <span class="solution-tag">Digital Marketing Technology</span>
+                  <span class="solution-tag">Customer Acquisition Systems</span>
+                </div>
+              </div>
+            </div>
+            <div class="solution-card-footer">
+              <a href="solution-digital-growth.html" class="solution-link">
+                <span>Explore Digital Growth Page</span>
+                <i data-lucide="arrow-right"></i>
+              </a>
+              <span style="font-size:0.78rem;color:var(--color-muted-text);font-weight:600;">Dedicated Page</span>
+            </div>
+          </article>
+
+          <!-- CARD 3 -->
+          <article class="solution-card tilt-card" id="sol-software-dev" data-scroll-reveal>
+            <div>
+              <div class="solution-visual-box">
+                <span class="solution-card-number">03 / ENGINEERING</span>
+                <svg width="190" height="115" viewBox="0 0 190 115" fill="none">
+                  <rect x="35" y="16" width="120" height="72" rx="8" fill="#06142B" stroke="#00D4FF" stroke-width="1.8" />
+                  <rect x="45" y="26" width="42" height="8" rx="3" fill="#FFC629" />
+                  <rect x="45" y="40" width="98" height="6" rx="3" fill="rgba(0,212,255,0.45)" />
+                  <rect x="45" y="64" width="60" height="12" rx="4" fill="#087BFF" />
+                  <path d="M18 88 H172 L182 98 H8 L18 88 Z" fill="#0E2E60" stroke="#00D4FF" stroke-width="1.2" />
+                </svg>
+              </div>
+              <div class="solution-card-body">
+                <h3 class="solution-card-title">Software &amp; Technology Development</h3>
+                <p class="solution-card-desc">Custom software, web and mobile applications tailored to your business needs.</p>
+                <div class="solution-tags">
+                  <span class="solution-tag">Custom Software</span>
+                  <span class="solution-tag">Web Applications</span>
+                  <span class="solution-tag">Mobile Applications</span>
+                  <span class="solution-tag">Enterprise Systems</span>
+                  <span class="solution-tag">CRM and ERP</span>
+                  <span class="solution-tag">API Integrations</span>
+                </div>
+              </div>
+            </div>
+            <div class="solution-card-footer">
+              <a href="solution-software.html" class="solution-link">
+                <span>Explore Software Page</span>
+                <i data-lucide="arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 4 -->
+          <article class="solution-card tilt-card" id="sol-automation-bi" data-scroll-reveal>
+            <div>
+              <div class="solution-visual-box">
+                <span class="solution-card-number">04 / AUTOMATION</span>
+                <svg width="190" height="115" viewBox="0 0 190 115" fill="none">
+                  <line x1="74" y1="56" x2="122" y2="56" stroke="#FFC629" stroke-width="2" stroke-dasharray="4 4" />
+                  <g class="sol-gear-main">
+                    <circle cx="72" cy="56" r="24" stroke="#00D4FF" stroke-width="4" stroke-dasharray="8 6" fill="rgba(8,123,255,0.2)" />
+                    <circle cx="72" cy="56" r="10" fill="#FFC629" />
+                  </g>
+                  <g class="sol-gear-sub">
+                    <circle cx="124" cy="56" r="18" stroke="#FFC629" stroke-width="3.5" stroke-dasharray="6 5" fill="rgba(255,198,41,0.15)" />
+                    <circle cx="124" cy="56" r="7" fill="#00D4FF" />
+                  </g>
+                </svg>
+              </div>
+              <div class="solution-card-body">
+                <h3 class="solution-card-title">Business Automation &amp; Intelligence</h3>
+                <p class="solution-card-desc">Streamline operations, manage resources, and make smarter decisions with data.</p>
+                <div class="solution-tags">
+                  <span class="solution-tag">Workflow Automation</span>
+                  <span class="solution-tag">Inventory Management</span>
+                  <span class="solution-tag">Business Intelligence</span>
+                  <span class="solution-tag">Automated Reporting</span>
+                  <span class="solution-tag">CRM Automation</span>
+                  <span class="solution-tag">Data Analytics</span>
+                </div>
+              </div>
+            </div>
+            <div class="solution-card-footer">
+              <a href="solution-automation.html" class="solution-link">
+                <span>Explore Automation Page</span>
+                <i data-lucide="arrow-right"></i>
+              </a>
+            </div>
+          </article>
+
+          <!-- CARD 5 -->
+          <article class="solution-card tilt-card" id="sol-consulting" data-scroll-reveal>
+            <div>
+              <div class="solution-visual-box">
+                <span class="solution-card-number">05 / ADVISORY &amp; CLOUD</span>
+                <svg width="190" height="115" viewBox="0 0 190 115" fill="none">
+                  <path d="M62 74 H128 C140 74 148 65 148 55 C148 45 140 37 130 37 C126 23 113 15 98 15 C81 15 68 27 66 42 C55 43 47 51 47 61 C47 69 54 74 62 74 Z" fill="rgba(8,123,255,0.28)" stroke="#00D4FF" stroke-width="2" />
+                  <circle cx="58" cy="96" r="4.5" fill="#00D4FF" />
+                  <circle cx="95" cy="98" r="5" fill="#FFC629" />
+                  <circle cx="132" cy="96" r="4.5" fill="#00D4FF" />
+                </svg>
+              </div>
+              <div class="solution-card-body">
+                <h3 class="solution-card-title">Technology Consulting &amp; Support</h3>
+                <p class="solution-card-desc">Get expert guidance, implement the right solutions, and receive ongoing support.</p>
+                <div class="solution-tags">
+                  <span class="solution-tag">Business Technology Consulting</span>
+                  <span class="solution-tag">Digital Transformation</span>
+                  <span class="solution-tag">IT Infrastructure</span>
+                  <span class="solution-tag">Cloud Solutions</span>
+                  <span class="solution-tag">Security and Maintenance</span>
+                  <span class="solution-tag">Technical Support</span>
+                </div>
+              </div>
+            </div>
+            <div class="solution-card-footer">
+              <a href="solution-consulting.html" class="solution-link">
+                <span>Explore Consulting Page</span>
+                <i data-lucide="arrow-right"></i>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  
+
+    <!-- FINAL CALL TO ACTION -->
+    <section class="final-cta-section">
+      <div class="hero-mountain-silhouette" aria-hidden="true">
+        <svg viewBox="0 0 1440 220" preserveAspectRatio="none" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M0 175 L200 105 L430 155 L680 70 L920 145 L1180 65 L1440 130 L1440 220 L0 220 Z" fill="rgba(8, 123, 255, 0.16)" />
+          <path d="M0 195 L260 135 L540 175 L830 100 L1120 165 L1440 115 L1440 220 L0 220 Z" fill="#040D1C" />
+          <path class="neural-dash-line" d="M200 105 L680 70 L1180 65" stroke="rgba(255, 198, 41, 0.45)" stroke-width="1.5" fill="none" />
+        </svg>
+      </div>
+
+      <div class="container">
+        <div class="cta-box" data-scroll-reveal>
+          <div class="cta-3d-badge" aria-hidden="true">
+            <i data-lucide="arrow-up-right" style="width:34px;height:34px;"></i>
+          </div>
+          <h2 class="cta-headline">Let's Grow Your Business <span class="text-gradient-gold">Together.</span></h2>
+          <p class="cta-description">
+            Have a business idea, a challenge, or a growth goal? Let's discuss how technology and AI can help you achieve it.
+          </p>
+          <div class="cta-button-group">
+            <button type="button" class="btn btn-gold magnetic-btn" data-open-consultation="Final CTA Business Consultation">
+              <span>Get a Business Consultation</span>
+              <i data-lucide="sparkles"></i>
+            </button>
+            <a href="contact.html" class="btn btn-outline-glass magnetic-btn">
+              <span>Send Us a Message</span>
+              <i data-lucide="mail"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <a href="index.html" class="brand-logo-link">
+            <img src="assets/logo/logo.png" alt="MindMatrix Services Logo" class="brand-logo-img" width="44" height="44" />
+            <div class="brand-text-wrap">
+              <span class="brand-title">Mind<span>Matrix</span></span>
+              <span class="brand-sub">Services Pvt. Ltd.</span>
+            </div>
+          </a>
+          <p class="footer-brand-desc">
+            We help businesses grow through AI, digital transformation, and intelligent technology solutions.
+          </p>
+          <div class="footer-socials" aria-label="Social Media Links">
+            <a href="contact.html" class="social-btn" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+            <a href="contact.html" class="social-btn" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+            <a href="contact.html" class="social-btn" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+            <a href="contact.html" class="social-btn" aria-label="YouTube"><i data-lucide="youtube"></i></a>
+          </div>
+        </div>
+
+        <div>
+          <h3 class="footer-col-title">Solutions</h3>
+          <ul class="footer-links">
+            <li><a href="solution-ai.html"><i data-lucide="chevron-right" style="width:14px;height:14px;"></i> AI &amp; Intelligent Solutions</a></li>
+            <li><a href="solution-digital-growth.html"><i data-lucide="chevron-right" style="width:14px;height:14px;"></i> Digital Growth Solutions</a></li>
+            <li><a href="solution-software.html"><i data-lucide="chevron-right" style="width:14px;height:14px;"></i> Software Development</a></li>
+            <li><a href="solution-automation.html"><i data-lucide="chevron-right" style="width:14px;height:14px;"></i> Business Automation</a></li>
+            <li><a href="solution-consulting.html"><i data-lucide="chevron-right" style="width:14px;height:14px;"></i> Technology Consulting</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-col-title">Quick Links</h3>
+          <ul class="footer-links">
+            <li><a href="index.html"><i data-lucide="chevron-right" style="width:14px;height:14px;"></i> Home</a></li>
+            <li><a href="about.html"><i data-lucide="chevron-right" style="width:14px;height:14px;"></i> About Us</a></li>
+            <li><a href="projects.html"><i data-lucide="chevron-right" style="width:14px;height:14px;"></i> Projects</a></li>
+            <li><a href="insights.html"><i data-lucide="chevron-right" style="width:14px;height:14px;"></i> Insights</a></li>
+            <li><a href="careers.html"><i data-lucide="chevron-right" style="width:14px;height:14px;"></i> Careers</a></li>
+            <li><a href="contact.html"><i data-lucide="chevron-right" style="width:14px;height:14px;"></i> Contact</a></li>
+          </ul>
+        </div>
+
+        <div>
+          <h3 class="footer-col-title">Contact Us</h3>
+          <div class="footer-contact-list">
+            <div class="footer-contact-item">
+              <i data-lucide="map-pin"></i>
+              <span>Kanwachal Road, Silpukhuri, Guwahati, India, Assam</span>
+            </div>
+            <div class="footer-contact-item">
+              <i data-lucide="mail"></i>
+              <span>info@mindmatrix.com (Official Email Placeholder)</span>
+            </div>
+            <div class="footer-contact-item">
+              <i data-lucide="phone"></i>
+              <span>+91 70085 6789 (Official Phone Placeholder)</span>
+            </div>
+          </div>
+
+          <div class="footer-ne-mini-map">
+            <svg width="58" height="44" viewBox="0 0 120 90" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+              <path d="M12 46 L35 32 L68 15 L105 25 L95 55 L75 78 L55 62 L32 64 Z" fill="rgba(8,123,255,0.25)" stroke="#00D4FF" stroke-width="2" />
+              <circle class="map-ping-circle" cx="56" cy="44" r="9" fill="rgba(255,198,41,0.5)" />
+              <circle cx="56" cy="44" r="4.5" fill="#FFC629" />
+            </svg>
+            <div style="font-size:0.78rem;line-height:1.4;">
+              <strong style="color:var(--color-white);display:block;">Northeast India Innovation Hub</strong>
+              <span style="color:var(--color-golden-yellow);">Intelligence. Innovation. Impact.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <div>
+          &copy; <span id="current-year">2026</span> <strong>MindMatrix Services Private Limited</strong>. All rights reserved.
+        </div>
+        <div class="footer-legal-links">
+          <a href="privacy-policy.html">Privacy Policy</a>
+          <a href="terms-conditions.html">Terms &amp; Conditions</a>
+          <a href="cookie-policy.html">Cookie Policy</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- SEARCH MODAL -->
+  <div class="modal-backdrop" id="search-modal" role="dialog" aria-modal="true" aria-labelledby="search-modal-title">
+    <div class="modal-dialog dark-dialog">
+      <button type="button" class="modal-close-btn" data-close-modal="search-modal" aria-label="Close Search">
+        <i data-lucide="x"></i>
+      </button>
+      <h3 id="search-modal-title" style="font-family:var(--font-heading);font-size:1.35rem;">
+        Search MindMatrix Solutions, Projects &amp; Insights
+      </h3>
+      <div class="search-input-wrap">
+        <i data-lucide="search" style="color:var(--color-bright-cyan);"></i>
+        <input type="search" id="global-search-input" placeholder="Try 'AI Agents', 'ERP', 'Automation', 'Chatbot'..." autocomplete="off" />
+      </div>
+      <div class="search-results-list" id="global-search-results"></div>
+    </div>
+  </div>
+
+  <!-- CONSULTATION MODAL -->
+  <div class="modal-backdrop" id="consultation-modal" role="dialog" aria-modal="true" aria-labelledby="consultation-modal-title">
+    <div class="modal-dialog">
+      <button type="button" class="modal-close-btn" data-close-modal="consultation-modal" aria-label="Close Consultation Modal">
+        <i data-lucide="x"></i>
+      </button>
+      <div class="eyebrow-badge" style="background:rgba(8,123,255,0.1);color:var(--color-electric-blue);margin-bottom:0.75rem;">
+        <span class="eyebrow-dot"></span>
+        <span>FREE STRATEGY SESSION</span>
+      </div>
+      <h3 id="consultation-modal-title" style="font-family:var(--font-heading);font-size:1.6rem;margin-bottom:0.4rem;">
+        Request a Business Growth Consultation
+      </h3>
+      <p style="font-size:0.92rem;color:var(--color-muted-text);margin-bottom:1.4rem;">
+        Share your focus area and our technology &amp; AI specialists will prepare a tailored growth roadmap.
+      </p>
+
+      <form id="modal-consultation-form" novalidate>
+        <div class="form-grid-2">
+          <div class="form-group">
+            <label class="form-label" for="modal-name">Your Name <span>*</span></label>
+            <input type="text" id="modal-name" class="form-control" placeholder="Full Name" required />
+            <span class="form-error-msg">Please enter your name.</span>
+          </div>
+          <div class="form-group">
+            <label class="form-label" for="modal-email">Work Email <span>*</span></label>
+            <input type="email" id="modal-email" class="form-control" placeholder="you@company.com" required />
+            <span class="form-error-msg">Please enter a valid email.</span>
+          </div>
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="modal-topic">Consultation Focus</label>
+          <input type="text" id="modal-topic" class="form-control" value="General Business Consultation" />
+        </div>
+
+        <div class="form-group">
+          <label class="form-label" for="modal-goals">Key Business Challenge or Goal <span>*</span></label>
+          <textarea id="modal-goals" rows="3" class="form-control" placeholder="What would you like to automate, build, or scale?" required></textarea>
+          <span class="form-error-msg">Please briefly describe your business goal.</span>
+        </div>
+
+        <div class="form-demo-notice">
+          <i data-lucide="shield-check" style="width:18px;height:18px;color:var(--color-electric-blue);flex-shrink:0;"></i>
+          <span><strong>Frontend Demo Notice:</strong> This consultation form validates on the frontend and displays an instant demonstration confirmation until your PHP backend is connected.</span>
+        </div>
+
+        <button type="submit" class="btn btn-gold" style="width:100%;">
+          <span>Book My Consultation Session</span>
+          <i data-lucide="arrow-right"></i>
+        </button>
+
+        <div class="form-success-banner" id="modal-success-banner" role="alert"></div>
+      </form>
+    </div>
+  </div>
+
+  <!-- DETAIL MODAL -->
+  <div class="modal-backdrop" id="detail-modal" role="dialog" aria-modal="true" aria-labelledby="detail-modal-title">
+    <div class="modal-dialog" id="detail-modal-body"></div>
+  </div>
+
+  <!-- BACK TO TOP -->
+  <button type="button" class="back-to-top-btn" id="back-to-top" aria-label="Back to Top">
+    <i data-lucide="arrow-up"></i>
+  </button>
+
+  <!-- SCRIPTS -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script src="https://unpkg.com/lenis@1.1.13/dist/lenis.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+  <script src="js/components.js"></script>
+  <script src="js/three-scene.js"></script>
+  <script src="js/navigation.js"></script>
+  <script src="js/animations.js"></script>
+  <script src="js/interactions.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
